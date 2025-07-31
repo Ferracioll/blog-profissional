@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(31, 31, 31);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.BLOG{
+    font-family: "Georgia", serif;
+
+  
+}
+td a {
+    color: #ffffff; 
+    text-decoration: none; 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+  }
+  
+  td a:hover {
+    color: #ffb619; 
+    text-decoration: underline; 
+  }
+.apresentacao{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Georgia", serif;
+    font-size: small;
+}
+.foto img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: top;
+    box-shadow: 5px 5px 15px 0 rgba(0,0,0,0.3);
+}
+.texto{
+    background-color: rgba(0, 0, 0, 0.322);
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 20px 0 rgba(255, 255, 255, 0.3);
+    font-family: Arial, Helvetica, sans-serif ;
+   
+}
